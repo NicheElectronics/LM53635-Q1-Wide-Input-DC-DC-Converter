@@ -1,0 +1,24 @@
+* source LM536355-Q1_TRANS
+X_U1         0 0 VIN N16790682 N167898841 EN VOUT 0 0 0 0 0 0 0 0 0 VIN VIN
++  RESET VSW SYNC N16790747 LM536355-Q1_TRANS PARAMS: MODE=0
+C_CVcc         N16790747 0  4.7u  TC=0,0 
+R_Rbias         N16790682 VOUT  3  
+C_Cbias         N16790682 0  0.1u  TC=0,0 
+C_Cb         N167898841 VSW  0.47u  
+C_Cin_hf2         VIN 0  0.047u  TC=0,0 
+R_R7         RESET VOUT  100k  
+C_Co4         VOUT 0  0.1u  TC=0,0 
+R_RLOAD         0 VOUT  {5/1m}  
+C_C1         VIN 0  10u  TC=0,0 
+C_Cin_hf1         VIN 0  0.047u  TC=0,0 
+R_R6         SYNC 0  100k  
+C_C2         VIN 0  10u  TC=0,0 
+V_V2         VIN 0  
++PWL 0 0 100u 13.5 
+I_I1         VOUT 0  
++PWL 0 0 5.1m 0 5.101m 3.499 5.500m 3.499 
+R_R3         VIN EN  100k  
+X_L1         VSW VOUT LDCR PARAMS: L=2.2u DCR=20m
+X_CO2         VOUT 0 CESR PARAMS: C=22u ESR=2m IC=0 X=1
+X_CO3         VOUT 0 CESR PARAMS: C=47u ESR=2m IC=0 X=1
+X_CO1         VOUT 0 CESR PARAMS: C=22u ESR=2m IC=0 X=1

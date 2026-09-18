@@ -1,0 +1,27 @@
+** Profile: "Start-up-Startup"  [ C:\Users\patil\Desktop\snvman2\LM536355-Q1_PSPICE_TRANS\lm536355-q1_trans-pspicefiles\start-up\startup.sim ] 
+
+** Creating circuit file "Startup.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lm536355-q1_trans.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5.5m 0 20n 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.OPTIONS ABSTOL= 10n
+.OPTIONS ITL2= 40
+.OPTIONS ITL4= 50
+.OPTIONS RELTOL= 0.005
+.OPTIONS VNTOL= 10.0u
+.PROBE64 V(alias(*)) I(alias(*)) 
+.INC "..\Start-up.net" 
+
+
+.END

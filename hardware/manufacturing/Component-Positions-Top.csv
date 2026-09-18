@@ -1,0 +1,31 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"BIAS","TestPoint","TestPoint_Keystone_5005-5009_Compact",180.300000,-114.650000,0.000000,top
+"C2","10uF","C_1206_3216Metric",159.460000,-98.635000,90.000000,top
+"C3","0.047uF","C_0603_1608Metric",161.450000,-99.450000,90.000000,top
+"C4","10uF","C_1206_3216Metric",170.110000,-98.340000,90.000000,top
+"C6","0.047uF","C_0603_1608Metric",168.140000,-99.035000,90.000000,top
+"C8","4.7uF","C_0805_2012Metric",168.380000,-103.000000,90.000000,top
+"C11","0.47uF","C_0603_1608Metric",165.585000,-96.025000,180.000000,top
+"C12","0.1uF","C_0603_1608Metric",170.200000,-103.220000,-90.000000,top
+"C13","0.1uF","C_0603_1608Metric",165.600000,-82.050000,0.000000,top
+"C14","22uF","C_1206_3216Metric",159.200000,-87.725000,-90.000000,top
+"C15","22uF","C_1206_3216Metric",170.400000,-87.725000,-90.000000,top
+"EN","TestPoint","TestPoint_Keystone_5005-5009_Compact",158.300000,-114.650000,0.000000,top
+"GND","TestPoint","TestPoint_Keystone_5000-5004_Miniature",152.800000,-82.050000,0.000000,top
+"GND1","TestPoint","TestPoint_Keystone_5000-5004_Miniature",146.800000,-111.250000,0.000000,top
+"GND2","TestPoint","TestPoint_Keystone_5005-5009_Compact",152.800000,-114.650000,0.000000,top
+"GND3","TestPoint","TestPoint_Keystone_5005-5009_Compact",185.800000,-106.650000,0.000000,top
+"GNDs","TestPoint","TestPoint_Keystone_5005-5009_Compact",169.300000,-114.650000,0.000000,top
+"IN+","TestPoint","TestPoint_Keystone_5000-5004_Miniature",124.946900,-90.875000,90.000000,top
+"IN-","TestPoint","TestPoint_Keystone_5000-5004_Miniature",124.946900,-84.475000,90.000000,top
+"JP1","EN Jumper","PinHeader_1x03_P2.54mm_Vertical",167.050000,-109.050000,-90.000000,top
+"JP2","FPWM Jumper","PinHeader_1x03_P2.54mm_Vertical",152.030000,-109.050000,90.000000,top
+"JP3","Reset Jumper","PinHeader_1x02_P2.54mm_Vertical",171.865000,-109.050000,90.000000,top
+"L3","2.2uH","INDM8681X400N",164.800000,-89.990000,90.000000,top
+"RESET","TestPoint","TestPoint_Keystone_5005-5009_Compact",185.800000,-114.650000,0.000000,top
+"SYNC","TestPoint","TestPoint_Keystone_5005-5009_Compact",180.300000,-106.650000,0.000000,top
+"U1","LM536353QRNLRQ1","CONV_LMS3655MMRNLR",164.810000,-100.050000,180.000000,top
+"VIN1","TestPoint","TestPoint_Keystone_5000-5004_Miniature",146.710000,-106.200000,0.000000,top
+"VINs","TestPoint","TestPoint_Keystone_5005-5009_Compact",163.800000,-114.650000,0.000000,top
+"VOUT","TestPoint","TestPoint_Keystone_5000-5004_Miniature",161.900000,-82.050000,0.000000,top
+"VOUTs","TestPoint","TestPoint_Keystone_5005-5009_Compact",174.800000,-114.650000,0.000000,top

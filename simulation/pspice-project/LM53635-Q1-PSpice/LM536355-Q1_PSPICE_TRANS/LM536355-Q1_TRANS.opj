@@ -1,0 +1,89 @@
+(ExpressProject "LM536355-Q1_TRANS"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1-2024 S001-[09/17/26]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\lm536355-q1rnl_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\lm536355-q1_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\lm536355-q1_trans-pspicefiles\start-up\start-up.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lm536355-q1_trans-pspicefiles\steady state\steady-state.sim"
+        (DisplayName "Steady state-Steady-state")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lm536355-q1_trans-pspicefiles\start-up\startup.sim"
+        (DisplayName "Start-up-Startup")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\lm536355-q1_trans-pspicefiles\start-up\startup.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\lm536355-q1_trans.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\lm536355-q1_trans.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Design Resources"
+         "C:\Users\patil\Desktop\snvman2\LM536355-Q1_PSPICE_TRANS\lm536355-q1_trans.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 605"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 623")
+        (Scroll "238 231")
+        (Zoom "96")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\PATIL\DESKTOP\SNVMAN2\LM536355-Q1_PSPICE_TRANS\LM536355-Q1_TRANS.DSN")
+      (Schematic "Start-up")
+      (Page "PAGE1")))
+  (PartMRUSelector
+    (IPWL
+      (FullPartName "IPWL.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (IDC
+      (FullPartName "IDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (LM536355-Q1RNL_TRANS
+      (FullPartName "LM536355QRNLRQ1.Normal")
+      (LibraryName ".\LM536355-Q1RNL_TRANS.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "patil")
+  (Folder "Logs"))
